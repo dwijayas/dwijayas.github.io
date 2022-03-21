@@ -35,6 +35,7 @@
       <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
       <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
     -->
+		<link href="favicon.ico" rel="icon" type="image/x-icon">
 
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
@@ -80,9 +81,7 @@
 
     <div id="footer">
       <div class="container">
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+        <p>{{ site.time | date: '%Y' }} {{ site.title }} Oleh {{ site.author.name }} Dihosting Di <a href="https://github.com/" target="_blank">Github</a> Didukung Oleh <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a> dan <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
         </p>
       </div>
     </div>
