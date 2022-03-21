@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Beranda Dwijayasloka
+title: Halo Dunia!
 tagline: 
 ---
 {% include JB/setup %}
 ## Selamat Datang
-Terima kasih atas kunjungan kamu.
+Terima kasih atas kunjungan kamu di Dwijayasloka.
 
 ## Arsip Posting
 <ul class="posts">
